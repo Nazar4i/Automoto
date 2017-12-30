@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/eb1b040a82.js"></script>
+</head>
+<body>
+<header class="header" id="home">
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="brand">
+                <div class="brand-name">automotive</div>
+                <div id="nav-menu-button">
+                    <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+                </div>
+            </div>
+            <ul class="nav-menu hide-ul">
+                <li><a class="nav-menu__link active-link" href="#home">home</a></li>
+                <li><a class="nav-menu__link" href="#about">about</a></li>
+                <li><a class="nav-menu__link" href="#services">services</a></li>
+                <li><a class="nav-menu__link" href="#gallery">gallery</a></li>
+                <li><a class="nav-menu__link" href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header-content">
+            <div class="header-content__description header-content__item">
+                <div class="description-title">
+                    <span class="description-title_darkblue">SELL YOUR </span> CAR NOW</div>
+                <p class="description-text" >
+                    Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s
+                </p>
+            </div>
+            <div class="header-content__form header-content__item">
+                <form action="php/mail.php" method="post" class="form-content">
+                    <div class="form-title">REQUEST A QUOTE</div>
+                    <input type="text" name="your_name" placeholder="Full Name" class="form-field">
+                    <input type="email" name="your_email" placeholder="Email Adress" class="form-field">
+                    <input type="text" name="your_phone" placeholder="Phone Number" class="form-field">
+                    <input type="text" name="your_country" placeholder="Country" class="form-field">
+                    <p class="check-line"><input type="checkbox" class="check"> I accept the terms & conditions </p>
+                    <input type="submit" value="send" class="btn btn-default">
+                    <!--<button class="btn btn-default">send</button>-->
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="service">
+    <div class="container">
+        <div class="service-title"><span class="serviece-title-red">OUR </span>SERVICES</div>
+        <div class="service-list">
+            <div class="service-list__item">
+                <img src="assets/service-1.png" alt="" >
+                <div class="item-text">
+                    Making your trip
+                    beautiful and easier
+                </div>
+            </div>
+            <div class="service-list__item">
+                <img src="assets/service-2.png" alt="">
+                <div class="item-text">
+                    Tools to help you
+                    succeed tommorow
+                </div>
+            </div>
+            <div class="service-list__item">
+                <img src="assets/service-3.png" alt="">
+                <div class="item-text">
+                    Ideas that will blow
+                    you out the blue.
+                </div>
+            </div>
+            <div class="service-list__item">
+                <img src="assets/service-4.png" alt="">
+                <div class="item-text">
+                    Navigate your path
+                    to beautiful world.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cost">
+    <div class="container">
+        <div class="cost-content">
+            <div class="cost-text">We are in business for over 6 years providing amazing services to client
+                and people love them to the core. View our story to know more.</div>
+            <button class="btn btn-default btn-medium ">OUR STORY</button>
+        </div>
+    </div>
+</section>
+<section class="price">
+    <div class="container">
+        <div class="price-title">PRICING</div>
+        <div class="price-list">
+            <ul class="price-list__item">
+                <li class="item-content__package">Starter</li>
+                <li class="item-content__price">free</li>
+                <li class="item-content__pos">Free Service</li>
+                <li class="item-content__pos">Multiple Accounts</li>
+                <li class="item-content__pos">Management No</li>
+                <li class="item-content__pos">--</li>
+                <li class="item-content__pos">--</li>
+                <a href="#home" class="price-btn price-btn_blue">try</a>
+            </ul>
+            <ul class="price-list__item">
+                <li class="item-content__package">Business</li>
+                <li class="item-content__price">$97</li>
+                <li class="item-content__pos">Free Service</li>
+                <li class="item-content__pos">Multiple Accounts</li>
+                <li class="item-content__pos">Management No</li>
+                <li class="item-content__pos">Unlimited Data</li>
+                <li class="item-content__pos">--</li>
+                <a href="#home" class="price-btn price-btn_red">sign up</a>
+            </ul>
+            <ul class="price-list__item">
+                <li class="item-content__package">Professional</li>
+                <li class="item-content__price">$297</li>
+                <li class="item-content__pos">Free Service</li>
+                <li class="item-content__pos">Multiple Accounts</li>
+                <li class="item-content__pos">Management No</li>
+                <li class="item-content__pos">Management No</li>
+                <li class="item-content__pos">Whatever You Need</li>
+                <a href="#home" class="price-btn price-btn_blue">sign up</a>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="combined">
+    <div class="container">
+        <div class="testimonial-gallery">
+            <div class="testimonial">
+                <div class="testimonial-title">
+                    TESTIMONIAL
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-item__text">I have been involved
+                        with this comapny for ages and just want to say this
+                        is a great work by designcoon.
+                    </div>
+                    <div class="testimonial-item__author">
+                        DJ Bravo - Frequent Travelera
+                    </div>
+                </div>
+                <div class="testimonial-item2">
+                    <div class="testimonial-item__text">I have been involved with
+                        this comapny for ages and just .
+                    </div>
+                    <div class="testimonial-item__author">
+                        DJ Bravo - Frequent Travelera
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="gallery-title">
+                    GALLERY
+                </div>
+                <div class="gallery-img__wrapper">
+                    <div class="gallery-img scale"><img src="assets/img1.png" alt=""></div>
+                    <div class="gallery-img scale"><img src="assets/img2.png" alt=""></div>
+                    <div class="gallery-img scale"><img src="assets/img3.png" alt=""></div>
+                    <div class="gallery-img scale"><img src="assets/img4.png" alt=""></div>
+                    <div class="gallery-img scale"><img src="assets/img5.png" alt=""></div>
+                    <div class="gallery-img scale"><img src="assets/img6.png" alt=""></div>
+                </div>
+                <a href="#" class="gallery-link">VIEW MORE PICTURES</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="rights">All Rights Reserved | 2016 |
+            Designed with love by <span class="right-color"> DesignCoon</span></div>
+        <div class="footer-brand">automotive</div>
+    </div>
+</footer>
+
+<script src="js/nav.js"></script>
+</body>
+</html>
