@@ -5,8 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Automoto</title>
+    <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+
     <script src="https://use.fontawesome.com/eb1b040a82.js"></script>
 </head>
 <body>
@@ -42,9 +45,9 @@
             <div class="header-content__form header-content__item">
                 <form action="php/mail.php" method="post" class="form-content">
                     <div class="form-title">REQUEST A QUOTE</div>
-                    <input type="text" name="your_name" placeholder="Full Name" class="form-field">
-                    <input type="email" name="your_email" placeholder="Email Adress" class="form-field">
-                    <input type="text" name="your_phone" placeholder="Phone Number" class="form-field">
+                    <input type="text" name="your_name" placeholder="Full Name" class="form-field" required>
+                    <input type="email" name="your_email" placeholder="Email Adress" class="form-field" required>
+                    <input type="text" name="your_phone" placeholder="Phone Number" class="form-field" required>
                     <input type="text" name="your_country" placeholder="Country" class="form-field">
                     <p class="check-line"><input type="checkbox" class="check"> I accept the terms & conditions </p>
                     <input type="submit" value="send" class="btn btn-default">
