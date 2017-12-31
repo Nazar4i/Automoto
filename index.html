@@ -123,7 +123,7 @@
                 <li class="item-content__pos">Management No</li>
                 <li class="item-content__pos">Unlimited Data</li>
                 <li class="item-content__pos">--</li>
-                <a href="#home" class="price-btn price-btn_red">sign up</a>
+                <button onclick="document.getElementById('modalwindow').style.display='block'" style="width:auto;" class="price-btn price-btn_red">Sign Up</button>
             </ul>
             <ul class="price-list__item">
                 <li class="item-content__package">Professional</li>
@@ -133,11 +133,32 @@
                 <li class="item-content__pos">Management No</li>
                 <li class="item-content__pos">Management No</li>
                 <li class="item-content__pos">Whatever You Need</li>
-                <a href="#home" class="price-btn price-btn_blue">sign up</a>
+                <button onclick="document.getElementById('modalwindow').style.display='block'" style="width:auto;" class="price-btn price-btn_blue">Sign Up</button>
             </ul>
         </div>
     </div>
 </section>
+
+<div id="modalwindow" class="modal">
+    <span onclick="document.getElementById('modalwindow').style.display='none'" class="close" title="Close Modal">×</span>
+    <form class="modal-content animate" action="">
+        <div class="container">
+            <label><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+            <div class="clearfix">
+                <button type="button" onclick="document.getElementById('modalwindow').style.display='none'" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </div>
+    </form>
+</div>
 
 <section class="combined">
     <div class="container">
@@ -191,5 +212,6 @@
 </footer>
 
 <script src="js/nav.js"></script>
+<script src="js/modal.js"></script>
 </body>
 </html>
