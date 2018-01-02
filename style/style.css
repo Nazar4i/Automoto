@@ -232,7 +232,7 @@
 
 .service-list__item {
     max-width: 176px;
-    /*width: 100%;*/
+    width: 100%;
     text-align: center;
     flex: 1 1 176px;
     padding-bottom: 30px;
