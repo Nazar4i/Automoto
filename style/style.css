@@ -303,8 +303,8 @@
 
 .price-list__item {
     background-color: #FFF;
-    max-width: 325px;
-    /*width: 100%;*/
+    max-width: 330px;
+    width: 100%;
     display: flex;
     display: -webkit-box;
     display: -webkit-flex;
