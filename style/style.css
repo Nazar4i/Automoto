@@ -162,7 +162,7 @@
     padding-bottom: 41px;
 }
 
-.form-field {
+.header-content__form .form-field {
     border: none;
     background-color: #eeeeee;
     color: #b5b5b5;
@@ -298,6 +298,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: -16px;
 }
 
 .price-list__item {
