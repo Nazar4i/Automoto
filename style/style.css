@@ -312,8 +312,8 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     list-style-type: none;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 66px;
+    padding-right: 66px;
 }
 
 .price-list__item:hover {
